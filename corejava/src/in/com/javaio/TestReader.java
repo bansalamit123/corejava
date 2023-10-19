@@ -9,7 +9,7 @@ public class TestReader {
 		int ch=reader.read();
 		while(ch!=-1) {
 			System.out.print((char)ch);
-		//	ch=reader.read();
+			ch=reader.read();
 		}
 		reader.close();
 	}
