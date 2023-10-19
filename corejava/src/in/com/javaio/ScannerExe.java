@@ -10,9 +10,11 @@ public class ScannerExe {
 		FileReader reader=new FileReader("C:\\Users\\Amit\\Desktop\\Hello.java\\hello1.txt");
 		Scanner sc=new Scanner(reader);
 		while(sc.hasNext()) {// method return type is boolean
-			System.out.println(sc.hasNextLine());
+			System.out.println(sc.nextLine());
+			
 			
 		}
+		sc.close();
 		
 	}
 
