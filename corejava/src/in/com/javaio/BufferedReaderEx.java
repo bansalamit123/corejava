@@ -5,21 +5,16 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class TestReader1 {
+public class BufferedReaderEx {
 	public static void main(String[] args) throws IOException {
-		/*FileReader file=new FileReader("C:\\Users\\Amit\\Desktop\\Hello.java\\hello.txt");
-		BufferedReader reader=new BufferedReader(file);
-		String line=reader.readLine();
+		FileReader fr=new FileReader("abc.txt");
+		BufferedReader br=new BufferedReader(fr);
+		String line=br.readLine();
 		while(line!=null) {
 			System.out.println(line);
-			
-			line=reader.readLine();
+			line=br.readLine();
 		}
-		//file.close();
-		//reader.close();*/
-		
-		
-		
+		br.close();
 		
 		
 	}

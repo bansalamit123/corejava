@@ -6,12 +6,12 @@ import java.io.*;
 
 public class FileExE {
 	public static void main(String[] args) throws IOException  {
-		//check this file exists if exists then print true or false
-//		File f=new File("abc.txt");  //File name
-//		System.out.println(f.exists());
-//		f.createNewFile();
-//		System.out.println(f.exists()); 
-//		
+		//check this file exists if exists then print true or if not exists then print false
+	/*	File f=new File("abc.txt");  //File name
+		System.out.println(f.exists());
+		f.createNewFile();
+		System.out.println(f.exists()); */
+		
 		//check this Directory exists if exists then print true or false
 		
 		 /*File f =new File("durgesh123");  //directory name
@@ -30,7 +30,7 @@ public class FileExE {
 	System.out.println("The Total Number"+count);*/
 	
 	//To Display only file name
-	int count =0;
+/*	int count =0;
 	File f=new File("C:\\Rays software\\Workspace\\Core Workspace\\corejava");
 	String[]s=f.list();
 	for(String s1:s) {
@@ -39,7 +39,7 @@ public class FileExE {
 			count++;
 			System.out.println(s1);
 		}
-	System.out.println("The Total Number:"+count);
+	System.out.println("The Total Number:"+count);*/
 		
 		
 	

@@ -20,7 +20,11 @@ public class TestFileInput {
 		out.close();
 		System.out.println("Data sucess fully!!");
 		
+		
+			
+		}
+		
 	}
 	
 
-}
+
