@@ -4,17 +4,18 @@ public class CharCount {
 	public static void main(String[] args) {
 		//Count char by char
 		String name="malyalam";
-		for(int i=0;i<name.length();i++) {
-			char currentCh=name.charAt(i);
-			int count=0;
-			
-			for(int j=0;j<name.length();j++) {
-			if(name.charAt(j)==currentCh) {
+		int count=0;
+		for(char ch='a';ch<'z';ch++) {
+			for(int i=0;i<name.length();i++) {
+				if(name.charAt(i)==ch) {
 				count++;
-				
+					
+				}
 			}
+			if(count>0) {
+				System.out.println(ch+"="+count);
 			}
-			System.out.println(""+currentCh+" "+count+" times");
+			count=0;
 		}
 		
 		

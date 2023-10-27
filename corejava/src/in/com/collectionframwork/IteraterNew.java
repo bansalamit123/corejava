@@ -1,7 +1,8 @@
 package in.com.collectionframwork;
 import java.util.ArrayList;
+import java.util.Iterator;
 
-import javax.swing.text.html.HTMLDocument.Iterator;
+//import javax.swing.text.html.HTMLDocument.Iterator;
 public class IteraterNew {
 	int id;
 	String name;
@@ -29,21 +30,22 @@ public class IteraterNew {
 		
 		
 		
-		/*for(int j=0;j<l.size();j++) {
-			IteraterNew ti=(IteraterNew)l.get(j);
+	/*	for(int j=0;j<l.size();j++) {
+		//	IteraterNew ti=(IteraterNew)l.get(j);
+			
 			System.out.println(ti);
 			
 		}*/
 		
-		/*for(Object o:l) {
-			IteraterNew itt =(IteraterNew)o;
-			System.out.println(itt);
+	/*	for(Object o:l) {
+			//IteraterNew itt =(IteraterNew)o;
+			System.out.println(o);
 			
 		}*/
 		Iterator it= l.iterator();
 		while(it.hasNext()) {
-			IteraterNew tii=(IteraterNew) it.next();;
-			System.out.println(tii);
+	       // IteraterNew tii=(IteraterNew) it.next();
+			System.out.println(it.next());
 			
 		}
 		

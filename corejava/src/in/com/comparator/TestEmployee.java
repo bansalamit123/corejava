@@ -13,13 +13,13 @@ public class TestEmployee {
 	System.out.println(emp);
 	Collections.sort(emp,new Comparatorbyid());
 	System.out.println(emp);
-	ArrayList<Employee> empn=new ArrayList<Employee>(emp);
-	Collections.sort(empn,new Comparatorbyname());
-	System.out.println(empn);
-	ArrayList <Employee>empp=new ArrayList<Employee>(emp);
-	Collections.sort(empp,new Comparatorbyphone());
-	System.out.println(empp);
-	
+//	ArrayList<Employee> empn=new ArrayList<Employee>(emp);
+//	Collections.sort(empn,new Comparatorbyname());
+//	System.out.println(empn);
+//	ArrayList <Employee>empp=new ArrayList<Employee>(emp);
+//	Collections.sort(empp,new Comparatorbyphone());
+//	System.out.println(empp);
+//	
 
 }
 }
