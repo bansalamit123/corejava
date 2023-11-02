@@ -28,6 +28,7 @@ public class AbstractTest {
 			}
 			
 		};
-		
+		s.area1(5, "amit");
+		s.colour();
 	}
 }
