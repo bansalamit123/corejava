@@ -1,3 +1,6 @@
+
+
+
 package in.com.exception;
 
 public class Exception2 {
@@ -7,7 +10,7 @@ public class Exception2 {
 			System.out.println(name.charAt(8));
 			
 		} catch(Exception e) {
-			System.out.println(e);
+			System.out.println(e.getMessage());
 		}
 		
 		

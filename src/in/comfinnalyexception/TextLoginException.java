@@ -3,17 +3,16 @@ package in.comfinnalyexception;
 public class TextLoginException {
 	public static void main(String[] args) {
 		String name="admin";
-		if(name.equals("dmin")) {
+		if(name.equals("dmin")) 
 			System.out.println("Yes valid user");
 			
-		}
 		else {
 			LoginException e  =new LoginException();
 			try {
-				throw e;
+				throw new LoginException();
 				
-			}catch (LoginException p2) {
-				System.out.println(p2);
+			}catch (LoginException g) {
+				System.out.println("invelid password");
 			
 		}
 		

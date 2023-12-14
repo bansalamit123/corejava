@@ -11,12 +11,9 @@ public class Customer_Deep implements Cloneable {
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		Customer_Deep c4=(Customer_Deep) super.clone();
-		c4.b=
-
-				
-				
-				;
-		return c4;
+		c4.b=(Bank_Deep)b.clone();
+       return c4;
+       
 	}
 
 }
